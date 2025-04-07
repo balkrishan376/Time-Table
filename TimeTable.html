@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Time Table Schedule</title>
+    <style>
+        table {
+            width: 100;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        td {
+            color: black;
+        }
+
+        th {
+            background-color: azure;
+        }
+
+        td {
+            height: 50px;
+        }
+
+        .subject {
+            font-weight: bold;
+            color: black;
+        }
+
+        .subjectOS {
+            background-color: yellow;
+        }
+
+        .subjectDBMS {
+            background-color: rgb(153, 153, 240);
+        }
+
+        .subjectOOPS {
+            background-color: dimgray;
+        }
+
+        .subjectWT {
+            background-color: #FFC0CB;
+        }
+
+        .subjectT {
+            background-color: lightgreen;
+        }
+
+        .lunch {
+            background-color: aliceblue;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Weekly Time Table</h1>
+    <table>
+        <tr>
+            <th>DAYS/TIME</th>
+            <th>09:10 - 10:00</th>
+            <th>10:01 - 10:50</th>
+            <th>10:51 - 11:40</th>
+            <th>11:41 - 12:30</th>
+            <th>12:31 - 01:10</th>
+            <th>01:11 - 02:00</th>
+            <th>02:01 - 02:50</th>
+            <th>02:51 - 03:40</th>
+            <th>03:41 - 04:30</th>
+
+            <tr>
+                <th>Monday</th>
+                <td class="subjectOS">OS</td>
+                <td class="subjectDBMS">DBMS</td>
+                <td class="subjectOOPS">OOPS</td>
+                <td class="subjectT">Sports & Yoga</td>
+                <td class="lunch" rowspan="6" >Lunch Break</td>
+                <td class="subject">DSA</td>
+                <td class="subjectWT">WT</td>
+                <td class="subject" colspan="2">OOPS LAB</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td class="subjectT" colspan="2">Verbal</td>
+                <td class="subjectT" colspan="2">Aptitude</td>
+                <!-- <td class="lunch">Lunch Break</td> -->
+                <td class="subjectOOPS">OOPS</td>
+                <td class="subjectWT">WT</td>
+                <td class="subject" colspan="2">DBMS LAB</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td class="subject">DSA</td>
+                <td class="subjectWT">WT</td>
+                <td class="subject" colspan="2">DSA LAB</td>
+                <!-- <td class="lunch">Lunch Break</td> -->
+                <td class="subjectOOPS">OOPS</td>
+                <td class="subjectDBMS">DBMS</td>
+                <td class="subjectT" colspan="2">ECA/Yoga</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td class="subjectDBMS">DBMS</td>
+                <td class="subject">DSA</td>
+                <td class="subject" colspan="2">DSA LAB</td>
+                <!-- <td class="lunch">Lunch Break</td> -->
+                <td class="subject">WT LAB</td>
+                <td class="subjectOS">OS</td>
+                <td class="subjectOOPS">OOPS</td>
+                <td class="subject">OOPS LAB</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td class="subjectT" colspan="2">TECHENICAL</td>
+                <td class="subjectDBMS">DBMS</td>
+                <td class="subjectOS">OS</td>
+                <!-- <td class="lunch">Lunch Break</td> -->
+                <td class="subjectWT">WT</td>
+                <td class="subject">DSA</td>
+                <td class="subject" colspan="2">WT LAB</td>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td class="subjectT" colspan="2">TECHENICAL</td>
+                <td class="subject">Revision WT</td>
+                <td class="subjectOOPS">Revision OOPS</td>
+                <!-- <td class="lunch">Lunch Break</td> -->
+                <td class="subjectOS">Revision OS</td>
+                <td class="subjectDBMS">Revision DBMS</td>
+                <td class="subject">Revision DSA</td>
+            </tr>
+        </tr>        
+    </table>
+</body>
+</html>
